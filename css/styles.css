@@ -9,5 +9,17 @@ html {
 
 body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  
+  background-image: url('../images/desktop_logo@2x.webp'); 
+  background-repeat: no-repeat;
+  background-size: cover; /*It covers the entire element*/
+  background-attachment: fixed; /*It makes sure the entire element is always cover*/
+
+  background-size: 100% 100%;
+}
+
+.img{
+  width: 100%;
+  max-width: 1140px;
 }
 /* ---------- END - GENEARAL STYLES --------- */
