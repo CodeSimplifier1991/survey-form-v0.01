@@ -53,3 +53,11 @@ body {
 }
 /* ---------- END - HEADER STYLES --------- */
 
+/* ---------- START - FORM STYLES --------- */
+.main{
+  background: var(--color-main);
+  opacity: 0.8;
+}
+/* ---------- END - FORM STYLES --------- */
+
+
