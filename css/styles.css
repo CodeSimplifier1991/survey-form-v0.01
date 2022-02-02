@@ -1,0 +1,13 @@
+/* ---------- START - GENEARAL STYLES --------- */
+:root {
+  --color-main: #262a66;
+  --color-white: #fff;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+/* ---------- END - GENEARAL STYLES --------- */
