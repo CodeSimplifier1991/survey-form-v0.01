@@ -21,39 +21,41 @@
     <!-- Google Fonts -->
   </head>
   <body>
+
     <!-- START - Main form -->
     <div class="main">
       <form action="#" id="survey-form">
-        <!-- Name input -->
+
+        <!-- TEXT - Name input -->
         <div class="form-input">
           <label for="name">Name</label><br>
           <input id="name" type="text" name="f_name" placeholder="Your name" required>
         </div>
-        <!-- Name input -->
+        <!-- TEXT - Name input -->
 
         <br>
 
-        <!-- EMAIL input -->
+        <!-- TEXT - EMAIL input -->
         <div class="form-input">
           <label for="email">Email</label><br>
           <input id="email" type="email" name="e_mail" placeholder="Your email" required>
         </div>
-        <!-- EMAIL input -->
+        <!-- TEXT - EMAIL input -->
 
         <br>
 
-        <!-- AGE input -->
+        <!-- TEXT - AGE input -->
         <div class="form-input">
           <label for="number">Age (optional)</label><br>
           <input id="number" type="number" name="age" placeholder="Age" required min="14" max="120">
         </div>
-        <!-- AGE input -->
+        <!-- TEXT - AGE input -->
 
         <br>
 
-        <!-- Client Status -->
+        <!-- DROPDOWN - Client Status -->
         <div class="form-input job__status">
-          <label for="job"></label>
+          <label for="job">Your Current Status</label>
           <select id="job" name="job-status">
             <option value="full-time">Working Full-Time</option>
             <option value="part-time">Working Part-Time</option>
@@ -62,11 +64,11 @@
             <option value="others">Others</option>
           </select>
         </div>
-        <!-- Client Status -->
+        <!-- DROPDOWN - Client Status -->
 
         <br>
 
-        <!-- Code Simplifier Recommendation -->
+        <!-- RADIOS - Code Simplifier Recommendation -->
         <div class="form-input">
           <input id="definitely" type="radio" name="recommendation" value="definitely">
           <label for="definitely">Definitely</label><br>
@@ -81,48 +83,52 @@
           <input id="not-sure" type="radio" name="recommendation" value="not-sure">
           <label for="not-sure">Not-sure</label><br>
         </div>
-        <!-- Code Simplifier Recommendation -->
+        <!-- RADIOS - Code Simplifier Recommendation -->
 
         <br>
 
-        <!-- Best Code Simplifier Feature -->
+        <!-- DROPDOWN - Best Code Simplifier Feature -->
         <div class="form-input school-feature">
-          <label for="favourite-features">Favourite Feature</label><br>
+          <label for="favourite-features">Code Simplifier Favourite Feature</label><br>
           <select id="favourite-features" name="favourite-features">
             <option value="courses">Courses</option>
             <option value="simplisity">Simplicity</option>
             <option value="course-bundle">Course Bundle</option>
+            <option value="projects">Projects</option>
           </select>
         </div>
-        <!-- Best Code Simplifier Feature -->
+        <!-- DROPDOWN - Best Code Simplifier Feature -->
 
         <br>
 
-        <!-- How to improve -->
+        <!-- CHECKBOX - How could we improve -->
         <div class="form-input improvement">
-          <label for="improve">How we can improve?</label><br>
-          <select id="improve" name="improvement-feedback">
-            <option value="more-courses">More Courses</option>
-            <option value="more-videos">More Videos</option>
-            <option value="forum">Forum</option>
-          </select>
+          <p>How could we improve? <span class="small-text">(Check all that apply)</span></p>
+          <input id="more-videos" type="checkbox" name="how-to-improve" value="more-videos">
+          <label for="more-videos">More videos</label>
+          <br>
+          <input id="more-courses" type="checkbox" name="how-to-improve" value="more-courses">
+          <label for="more-courses">More Courses</label>
+          <br>
+          <input id="more-projects" type="checkbox" name="how-to-improve" value="more-projects">
+          <label for="more-projects">More Projects</label>
         </div>
-        <!-- How to improve -->
+        <!-- CHECKBOX - How could we improve -->
 
         <br>
 
-        <!-- Additional Comment -->
+        <!-- TEXTAREA - Additional Comment -->
         <div class="form-input">
           <label for="additional-comment">Additional Comment:</label><br>
           <textarea id="additional-comment" name="additional-comment"></textarea>
         </div>
-        <!-- Additional Comment -->
+        <!-- TEXTAREA - Additional Comment -->
 
         <br>
 
         <!-- Submit button -->
-        <div class="form-input">
-          <input class="btn btn--primary" id="submit" type="submit" name="submit" value="Submit">
+        <div class="form-input submit">
+          <input id="submit" type="submit" name="submit" value="Submit">
         </div>
         <!-- Submit button -->
       </form>
