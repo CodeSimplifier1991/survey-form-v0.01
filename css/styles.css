@@ -25,6 +25,10 @@ body {
 
   background-size: 100% 100%;
 }
+
+/* p{
+  font-weight: 500;
+} */
 /* ---------- END - GENEARAL STYLES --------- */
 
 /* ---------- START - HEADER STYLES --------- */
@@ -54,6 +58,7 @@ body {
 /* ---------- END - HEADER STYLES --------- */
 
 /* ---------- START - FORM STYLES --------- */
+/* START - Covers the whole form */
 .main{
   background: var(--color-main);
   border-radius: 5px;
@@ -62,40 +67,44 @@ body {
   margin: 100px auto;
   max-width: 570px; 
   opacity: 0.9;
-  padding: 30px;
+  padding: 20px;
   width: 90%;
 }
+/* END - Covers the whole form */
 
-/* Structures the inputs */
+
+/* START - Structures style for inputs */
 .form-input{
   font-size: 2.1rem;
   color: #fff;
   padding: 1rem;
   margin: 0.5rem 0;
   font-weight: 500;
+  outline: 0;
 }
-/* Structures the inputs */
+/* END - Structures style for inputs */
 
+/* START - Style the inputs */
 input[type=text],
 input[type=email],
+input[type=number],
 select {
-  width: 100%;
-  padding: 0.85rem 0.8rem;
-  margin: 0 auto;
-  display: inline-block;
   border-radius: 5px;
+  display: inline-block;
+  font-size: 1.7rem;
+  margin: 1rem auto;
+  outline: 0;
+  padding: 0.85rem;
+  width: 100%;
 }
+/* END - Style the inputs */
 
 input[type=number]{
   width: 30%;
-  padding: 0.85rem 0.8rem;
-  margin: 0 auto;
-  display: inline-block;
-  border-radius: 5px;
 }
 
 input[type=radio]{
-  border: 0px;
+  border: 0;
   width: 10%;
   height: 2rem;
 }
@@ -107,39 +116,49 @@ input[type=checkbox]{
   margin: 7px 0;
 }
 
+/* Styles the span */
 .small-text{
-  margin-left: 0.25rem;
   font-size: 1.5rem;
+  margin-left: 0.25rem;
   margin-top: 0;
   white-space: nowrap;
 }
+/* Styles the span */
 
 textarea{
-  width: 100%;
+  font-size: 1.4rem;
   height: 250px;
+  margin-top: 1rem;
+  outline: 0;
+  padding: 1rem;
   resize: none;
+  width: 100%;
 }
 
+/* Style the submit button */
 .submit{
   text-align: center;
-  opacity: 1;
 }
+
 input[type=submit]{
   background: #5c5b5c;
   border-radius: 10px;
   border: none;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
+  font-weight: 600;
   margin: 0 auto;
   padding: 1rem 1rem;
-  width: 90%;
-  color: #fff;
+  width: 100%;
 }
 
 input[type=submit]:hover{
   background: #979597;
   opacity: 1;
 }
+/* Style the submit button */
+
 /* ---------- END - FORM STYLES --------- */
 
 

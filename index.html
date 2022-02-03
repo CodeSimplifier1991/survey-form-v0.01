@@ -44,12 +44,12 @@
 
         <br>
 
-        <!-- TEXT - AGE input -->
+        <!-- NUMBER - AGE input -->
         <div class="form-input">
           <label for="number">Age (optional)</label><br>
           <input id="number" type="number" name="age" placeholder="Age" required min="14" max="120">
         </div>
-        <!-- TEXT - AGE input -->
+        <!-- NUMBER - AGE input -->
 
         <br>
 
@@ -70,6 +70,7 @@
 
         <!-- RADIOS - Code Simplifier Recommendation -->
         <div class="form-input">
+          <label>Would you recommend Code Simplifier to a friend?</label><br><br>
           <input id="definitely" type="radio" name="recommendation" value="definitely">
           <label for="definitely">Definitely</label><br>
 
@@ -88,8 +89,8 @@
         <br>
 
         <!-- DROPDOWN - Best Code Simplifier Feature -->
-        <div class="form-input school-feature">
-          <label for="favourite-features">Code Simplifier Favourite Feature</label><br>
+        <div class="form-input">
+          <label for="favourite-features">Code Simplifier Favourite Feature?</label><br>
           <select id="favourite-features" name="favourite-features">
             <option value="courses">Courses</option>
             <option value="simplisity">Simplicity</option>
@@ -102,7 +103,7 @@
         <br>
 
         <!-- CHECKBOX - How could we improve -->
-        <div class="form-input improvement">
+        <div class="form-input">
           <p>How could we improve? <span class="small-text">(Check all that apply)</span></p>
           <input id="more-videos" type="checkbox" name="how-to-improve" value="more-videos">
           <label for="more-videos">More videos</label>
@@ -120,7 +121,7 @@
         <!-- TEXTAREA - Additional Comment -->
         <div class="form-input">
           <label for="additional-comment">Additional Comment:</label><br>
-          <textarea id="additional-comment" name="additional-comment"></textarea>
+          <textarea id="additional-comment" name="additional-comment" placeholder="Enter your comment here ..."></textarea>
         </div>
         <!-- TEXTAREA - Additional Comment -->
 
