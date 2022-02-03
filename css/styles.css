@@ -56,7 +56,12 @@ body {
 /* ---------- START - FORM STYLES --------- */
 .main{
   background: var(--color-main);
-  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  max-width: 570px; 
+  opacity: 0.85;
+  width: 90%;
 }
 /* ---------- END - FORM STYLES --------- */
 

@@ -22,13 +22,111 @@
   </head>
   <body>
     <!-- START - Main form -->
-    <main class="main">
-      <!-- START - Form -->
-      <form id="survey-form">
-        
+    <div class="main">
+      <form action="#" id="survey-form">
+        <!-- Name input -->
+        <div class="form-input">
+          <label for="name">Name</label><br>
+          <input id="name" type="text" name="f_name" placeholder="Your name" required>
+        </div>
+        <!-- Name input -->
+
+        <br>
+
+        <!-- EMAIL input -->
+        <div class="form-input">
+          <label for="email">Email</label><br>
+          <input id="email" type="email" name="e_mail" placeholder="Your email" required>
+        </div>
+        <!-- EMAIL input -->
+
+        <br>
+
+        <!-- AGE input -->
+        <div class="form-input">
+          <label for="number">Age (optional)</label><br>
+          <input id="number" type="number" name="age" placeholder="Age" required min="14" max="120">
+        </div>
+        <!-- AGE input -->
+
+        <br>
+
+        <!-- Client Status -->
+        <div class="form-input job__status">
+          <label for="job"></label>
+          <select id="job" name="job-status">
+            <option value="full-time">Working Full-Time</option>
+            <option value="part-time">Working Part-Time</option>
+            <option value="fun">Learning out of Interest</option>
+            <option value="student">Student</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+        <!-- Client Status -->
+
+        <br>
+
+        <!-- Code Simplifier Recommendation -->
+        <div class="form-input">
+          <input id="definitely" type="radio" name="recommendation" value="definitely">
+          <label for="definitely">Definitely</label><br>
+
+          <br>
+
+          <input id="maybe" type="radio" name="recommendation" value="maybe">
+          <label for="maybe">Maybe</label><br>
+
+          <br>
+
+          <input id="not-sure" type="radio" name="recommendation" value="not-sure">
+          <label for="not-sure">Not-sure</label><br>
+        </div>
+        <!-- Code Simplifier Recommendation -->
+
+        <br>
+
+        <!-- Best Code Simplifier Feature -->
+        <div class="form-input school-feature">
+          <label for="favourite-features">Favourite Feature</label><br>
+          <select id="favourite-features" name="favourite-features">
+            <option value="courses">Courses</option>
+            <option value="simplisity">Simplicity</option>
+            <option value="course-bundle">Course Bundle</option>
+          </select>
+        </div>
+        <!-- Best Code Simplifier Feature -->
+
+        <br>
+
+        <!-- How to improve -->
+        <div class="form-input improvement">
+          <label for="improve">How we can improve?</label><br>
+          <select id="improve" name="improvement-feedback">
+            <option value="more-courses">More Courses</option>
+            <option value="more-videos">More Videos</option>
+            <option value="forum">Forum</option>
+          </select>
+        </div>
+        <!-- How to improve -->
+
+        <br>
+
+        <!-- Additional Comment -->
+        <div class="form-input">
+          <label for="additional-comment">Additional Comment:</label><br>
+          <textarea id="additional-comment" name="additional-comment"></textarea>
+        </div>
+        <!-- Additional Comment -->
+
+        <br>
+
+        <!-- Submit button -->
+        <div class="form-input">
+          <input class="btn btn--primary" id="submit" type="submit" name="submit" value="Submit">
+        </div>
+        <!-- Submit button -->
       </form>
-      <!-- End - Form -->
-    </main>
+    </div>
     <!-- END - Main form -->
   </body>
 </html>
