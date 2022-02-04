@@ -21,37 +21,62 @@
     <!-- Google Fonts -->
   </head>
   <body>
+    <!-- START - Heading section -->
+    <header class="header">
+      <h1 class="header__heading">Code Simplifier Survey Form</h1>
+      <p class="header__body">Thank you for helping us to improve</p>
+    </header>
+    <!-- END - Heading section -->
 
     <!-- START - Main form -->
     <div class="main">
       <form action="#" id="survey-form">
-
         <!-- TEXT - Name input -->
         <div class="form-input">
-          <label for="name">Name</label><br>
-          <input id="name" type="text" name="f_name" placeholder="Your name" required>
+          <label for="name">Name</label><br />
+          <input
+            id="name"
+            type="text"
+            name="f_name"
+            placeholder="Your name"
+            required
+          />
         </div>
         <!-- TEXT - Name input -->
 
-        <br>
+        <br />
 
         <!-- TEXT - EMAIL input -->
         <div class="form-input">
-          <label for="email">Email</label><br>
-          <input id="email" type="email" name="e_mail" placeholder="Your email" required>
+          <label for="email">Email</label><br />
+          <input
+            id="email"
+            type="email"
+            name="e_mail"
+            placeholder="Your email"
+            required
+          />
         </div>
         <!-- TEXT - EMAIL input -->
 
-        <br>
+        <br />
 
         <!-- NUMBER - AGE input -->
         <div class="form-input">
-          <label for="number">Age (optional)</label><br>
-          <input id="number" type="number" name="age" placeholder="Age" required min="14" max="120">
+          <label for="number">Age (optional)</label><br />
+          <input
+            id="number"
+            type="number"
+            name="age"
+            placeholder="Age"
+            required
+            min="14"
+            max="120"
+          />
         </div>
         <!-- NUMBER - AGE input -->
 
-        <br>
+        <br />
 
         <!-- DROPDOWN - Client Status -->
         <div class="form-input job__status">
@@ -66,31 +91,44 @@
         </div>
         <!-- DROPDOWN - Client Status -->
 
-        <br>
+        <br />
 
         <!-- RADIOS - Code Simplifier Recommendation -->
         <div class="form-input">
-          <label>Would you recommend Code Simplifier to a friend?</label><br><br>
-          <input id="definitely" type="radio" name="recommendation" value="definitely">
-          <label for="definitely">Definitely</label><br>
+          <label>Would you recommend Code Simplifier to a friend?</label
+          ><br /><br />
+          <input
+            id="definitely"
+            type="radio"
+            name="recommendation"
+            value="definitely"
+          />
+          <label for="definitely">Definitely</label><br />
 
-          <br>
+          <br />
 
-          <input id="maybe" type="radio" name="recommendation" value="maybe">
-          <label for="maybe">Maybe</label><br>
+          <input id="maybe" type="radio" name="recommendation" value="maybe" />
+          <label for="maybe">Maybe</label><br />
 
-          <br>
+          <br />
 
-          <input id="not-sure" type="radio" name="recommendation" value="not-sure">
-          <label for="not-sure">Not-sure</label><br>
+          <input
+            id="not-sure"
+            type="radio"
+            name="recommendation"
+            value="not-sure"
+          />
+          <label for="not-sure">Not-sure</label><br />
         </div>
         <!-- RADIOS - Code Simplifier Recommendation -->
 
-        <br>
+        <br />
 
         <!-- DROPDOWN - Best Code Simplifier Feature -->
         <div class="form-input">
-          <label for="favourite-features">Code Simplifier Favourite Feature?</label><br>
+          <label for="favourite-features"
+            >Code Simplifier Favourite Feature?</label
+          ><br />
           <select id="favourite-features" name="favourite-features">
             <option value="courses">Courses</option>
             <option value="simplisity">Simplicity</option>
@@ -100,36 +138,58 @@
         </div>
         <!-- DROPDOWN - Best Code Simplifier Feature -->
 
-        <br>
+        <br />
 
         <!-- CHECKBOX - How could we improve -->
         <div class="form-input">
-          <p>How could we improve? <span class="small-text">(Check all that apply)</span></p>
-          <input id="more-videos" type="checkbox" name="how-to-improve" value="more-videos">
+          <p>
+            How could we improve?
+            <span class="small-text">(Check all that apply)</span>
+          </p>
+          <input
+            id="more-videos"
+            type="checkbox"
+            name="how-to-improve"
+            value="more-videos"
+          />
           <label for="more-videos">More videos</label>
-          <br>
-          <input id="more-courses" type="checkbox" name="how-to-improve" value="more-courses">
+          <br />
+          <input
+            id="more-courses"
+            type="checkbox"
+            name="how-to-improve"
+            value="more-courses"
+          />
           <label for="more-courses">More Courses</label>
-          <br>
-          <input id="more-projects" type="checkbox" name="how-to-improve" value="more-projects">
+          <br />
+          <input
+            id="more-projects"
+            type="checkbox"
+            name="how-to-improve"
+            value="more-projects"
+          />
           <label for="more-projects">More Projects</label>
         </div>
         <!-- CHECKBOX - How could we improve -->
 
-        <br>
+        <br />
 
         <!-- TEXTAREA - Additional Comment -->
         <div class="form-input">
-          <label for="additional-comment">Additional Comment:</label><br>
-          <textarea id="additional-comment" name="additional-comment" placeholder="Enter your comment here ..."></textarea>
+          <label for="additional-comment">Additional Comment:</label><br />
+          <textarea
+            id="additional-comment"
+            name="additional-comment"
+            placeholder="Enter your comment here ..."
+          ></textarea>
         </div>
         <!-- TEXTAREA - Additional Comment -->
 
-        <br>
+        <br />
 
         <!-- Submit button -->
         <div class="form-input submit">
-          <input id="submit" type="submit" name="submit" value="Submit">
+          <input id="submit" type="submit" name="submit" value="Submit" />
         </div>
         <!-- Submit button -->
       </form>
