@@ -66,7 +66,7 @@ body {
   justify-content: center;
   margin: 30px auto;
   max-width: 570px;
-  opacity: 0.9;
+  opacity: 0.94;
   padding: 20px;
   width: 90%;
 }
@@ -159,3 +159,69 @@ input[type='submit']:hover {
 /* Style the submit button */
 
 /* ---------- END - FORM STYLES --------- */
+
+/* ------------------ MEDIA --------------- */
+@media screen and (min-width: 768px) {
+  /* ------- MEDIA HEADER ----------- */
+  .header {
+    display: block;
+    width: 100%;
+  }
+
+  .header__heading {
+    font-size: 3.4rem;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+  }
+
+  .header__body {
+    font-size: 1.6rem;
+  }
+  /* ------- MEDIA HEADER ----------- */
+
+  /* ------- MEDIA FORM ----------- */
+  .main {
+    max-width: 708px;
+    padding: 20px;
+    width: 55%;
+  }
+
+  .form-input {
+    font-size: 1.9rem;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  input[type='number'],
+  select {
+    font-size: 1.5rem;
+    margin: 1rem auto;
+  }
+
+  input[type='number'] {
+    width: 20%;
+  }
+
+  input[type='radio'] {
+    height: 1.5rem;
+  }
+
+  input[type='checkbox'] {
+    height: 1.5rem;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  input[type='submit'] {
+    font-weight: 400;
+  }
+
+  input[type='submit']:hover {
+    background: #979597;
+    opacity: 1;
+  }
+  /* ------- MEDIA FORM ----------- */
+}
+/* ------------------ MEDIA --------------- */
