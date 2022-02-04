@@ -23,8 +23,10 @@
   <body>
     <!-- START - Heading section -->
     <header class="header">
-      <h1 class="header__heading">Code Simplifier Survey Form</h1>
-      <p class="header__body">Thank you for helping us to improve</p>
+      <h1 id="title" class="header__heading">Code Simplifier Survey Form</h1>
+      <p id="description" class="header__body">
+        Thank you for helping us to improve
+      </p>
     </header>
     <!-- END - Heading section -->
 
@@ -33,7 +35,7 @@
       <form action="#" id="survey-form">
         <!-- TEXT - Name input -->
         <div class="form-input">
-          <label for="name">Name</label><br />
+          <label for="name-label">Name</label><br />
           <input
             id="name"
             type="text"
@@ -48,7 +50,7 @@
 
         <!-- TEXT - EMAIL input -->
         <div class="form-input">
-          <label for="email">Email</label><br />
+          <label for="email-label">Email</label><br />
           <input
             id="email"
             type="email"
@@ -63,7 +65,7 @@
 
         <!-- NUMBER - AGE input -->
         <div class="form-input">
-          <label for="number">Age (optional)</label><br />
+          <label for="number-label">Age (optional)</label><br />
           <input
             id="number"
             type="number"
@@ -129,7 +131,7 @@
           <label for="favourite-features"
             >Code Simplifier Favourite Feature?</label
           ><br />
-          <select id="favourite-features" name="favourite-features">
+          <select id="dropdown" name="favourite-features">
             <option value="courses">Courses</option>
             <option value="simplisity">Simplicity</option>
             <option value="course-bundle">Course Bundle</option>
